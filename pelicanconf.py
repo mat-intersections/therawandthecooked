@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Tom Gurion'
-SITENAME = 'The Raw and the Cooked'
+SITENAME = 'The RAW and The COOKED'
 SITEURL = ''
 
 PATH = 'content'
@@ -35,3 +35,4 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = 'theme'
+ARTICLE_ORDER_BY = 'order'
