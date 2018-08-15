@@ -3986,3 +3986,7 @@ input, select, textarea {
     height: 100%;
     border: 0;
 }
+
+h2 span.date {
+    font-weight: 200;
+}

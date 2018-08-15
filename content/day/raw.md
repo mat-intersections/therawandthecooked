@@ -1,5 +1,5 @@
 title: The RAW
-date: 11.08.2018
+date: 28.09.2018
 image: images/raw.jpg
 slug: raw
 order: 1

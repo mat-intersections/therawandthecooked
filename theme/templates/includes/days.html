@@ -6,10 +6,11 @@
             <div class="image">
                 <img src="{{ article.image }}" alt="{{ article.title }} image" />
             </div>
-            <a href="{{ article.url }}" class="content">
-                <h2>{{ article.title }}</h2>
-                <p>{{ article.summary }}</p>
-            </a>
+            <div class="content">
+                <h2>{{ article.title }}<span class="date"> / {{ article.date.strftime('%-d %B') }}</span></h2>
+                {{ article.summary }}
+                <a href="{{ article.url }}" class="button primary">More</a>
+            </div>
         </section>
 
     {% endfor %}

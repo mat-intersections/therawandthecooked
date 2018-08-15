@@ -1,5 +1,5 @@
 title: The COOKED
-date: 11.08.2018
+date: 29.09.2018
 image: images/cooked.jpg
 slug: cooked
 order: 2
