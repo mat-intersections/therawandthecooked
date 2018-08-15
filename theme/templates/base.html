@@ -16,11 +16,10 @@
         <div id="page-wrapper">
 
             {% include "includes/header.html" %}
-            {% include "includes/banner.html" %}
-            {% include "includes/description.html" %}
-            {% include "includes/days.html" %}
-            {% include "includes/location.html" %}
-            {% include "includes/cta.html" %}
+
+            {% block content %}
+            {% endblock %}
+
             {% include "includes/footer.html" %}
 
         </div>

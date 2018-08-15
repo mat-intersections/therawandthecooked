@@ -35,4 +35,4 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = 'theme'
-ARTICLE_ORDER_BY = 'order'
+ARTICLE_ORDER_BY = 'date'

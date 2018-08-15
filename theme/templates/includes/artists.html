@@ -1,0 +1,13 @@
+{% for artist in articles|selectattr('category', 'equalto', article.slug + '_artists') %}
+
+    <section class="spotlight bright">
+        <div class="image">
+            <img src="{{ artist.image }}" alt="{{ artist.title }} image" />
+        </div>
+        <div class="content">
+            <h2>{{ artist.title }}</h2>
+            {{ artist.content }}
+        </div>
+    </section>
+
+{% endfor %}

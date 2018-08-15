@@ -1,0 +1,11 @@
+<table>
+    <thead></thead>
+    <tbody></tbody>
+
+    {% for event in articles|selectattr('category', 'equalto', article.slug + '_events') %}
+    <tr>
+        <td>{{ event.date.strftime('%-I%p') }}</td>
+        <td>{{ event.title }}</td>
+    </tr>
+    {% endfor %}
+</table>
