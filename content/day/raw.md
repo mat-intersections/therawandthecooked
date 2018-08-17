@@ -3,6 +3,7 @@ date: 28.09.2018
 image: images/raw.jpg
 slug: raw
 order: 1
+summary: The RAW focusses on Live Coding and code based approaches to the real time creation of sound and image. The day features workshops and presentations by experienced live coders, rounded off with an Algorave - a live coded audio visual spectacular featuring performances from some of the UK's leading lights in audio visual coded performance.
 
 The RAW focusses on Live Coding and code based approaches to the real time creation of sound and image. For those yet to make its acquaintance, Live Coding is the creation of sonic or visual content generated through the execution of computer code in real time.
 
