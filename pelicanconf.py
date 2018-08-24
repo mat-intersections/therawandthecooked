@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import sys
+sys.path.append('.')
+import jinja_filters
+
 AUTHOR = 'Tom Gurion'
 SITENAME = 'The RAW and The COOKED'
 SITEURL = ''
@@ -36,3 +40,8 @@ DEFAULT_PAGINATION = False
 
 THEME = 'theme'
 ARTICLE_ORDER_BY = 'date'
+SLUGIFY_SOURCE = 'basename'
+JINJA_FILTERS = {
+    'event_time': jinja_filters.event_time,
+    'strip_paragraph': jinja_filters.strip_paragraph,
+}

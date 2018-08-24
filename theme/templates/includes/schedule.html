@@ -4,8 +4,9 @@
 
     {% for event in articles|selectattr('category', 'equalto', article.slug + '_events') %}
     <tr>
-        <td>{{ event.date.strftime('%-I%p') }}</td>
+        <td>{{ event|event_time }}</td>
         <td>{{ event.title }}</td>
+        <td>{{ event.content|strip_paragraph }}</td>
     </tr>
     {% endfor %}
 </table>
