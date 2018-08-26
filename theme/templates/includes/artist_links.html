@@ -1,0 +1,16 @@
+{% if artist.link %}
+  {% set links = [artist.link] %}
+{% elif artist.links %}
+  {% set links = artist.links %}
+{% endif %}
+
+{% if links %}
+    <ul class="icons">
+    {% for link in links %}
+        {% set href, icon, label = link.strip().split(';') %}
+        <li>
+            <a href="{{ href }}" target="_blank" class="icon {{ icon }}"><span class="label">{{ label }}</span></a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
