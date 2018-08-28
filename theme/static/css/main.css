@@ -1804,14 +1804,6 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 980px) {
-
-		header br {
-			display: none;
-		}
-
-	}
-
 /* Form */
 
 	form {
@@ -3678,10 +3670,6 @@ input, select, textarea {
 
 				#banner h2 {
 					font-size: 1.25em;
-				}
-
-				#banner br {
-					display: none;
 				}
 
 				#banner .more {
