@@ -1804,14 +1804,6 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 980px) {
-
-		header br {
-			display: none;
-		}
-
-	}
-
 /* Form */
 
 	form {
@@ -2333,6 +2325,16 @@ input, select, textarea {
 		table td {
 			padding: 0.75em 0.75em;
 		}
+
+    table td.nowrap {
+      white-space: nowrap;
+    }
+
+    @media screen and (max-width: 736px) {
+      table td.nowrap {
+        white-space: inherit;
+      }
+    }
 
 		table th {
 			color: #fff;
@@ -3678,10 +3680,6 @@ input, select, textarea {
 
 				#banner h2 {
 					font-size: 1.25em;
-				}
-
-				#banner br {
-					display: none;
 				}
 
 				#banner .more {
