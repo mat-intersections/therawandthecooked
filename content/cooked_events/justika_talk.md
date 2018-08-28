@@ -1,5 +1,5 @@
-title: Keynote - Ewa Justika
+title: Keynote Talk
 date: 17:00 29.9.2018
 length: 1
 
-[http://ewajustka.tumblr.com](http://ewajustka.tumblr.com)
+Ewa Justika: [http://ewajustka.tumblr.com](http://ewajustka.tumblr.com)
