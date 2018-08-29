@@ -19,4 +19,5 @@ Algobbz,
 Coral Manton,
 Emily Donovan,
 Hellocatfood,
-Sian Morell
+Sian Morell...
+and more TBC.
