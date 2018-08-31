@@ -1,7 +1,7 @@
-{% if artist.link %}
-  {% set links = [artist.link] %}
-{% elif artist.links %}
-  {% set links = artist.links %}
+{% if item.link %}
+  {% set links = [item.link] %}
+{% elif item.links %}
+  {% set links = item.links %}
 {% endif %}
 
 {% if links %}

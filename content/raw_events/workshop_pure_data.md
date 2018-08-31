@@ -1,4 +1,5 @@
-title: Workshop - Visual Coding in Pure Data
+title: Visual Coding in Pure Data
+type: workshop
 date: 11:30 28.9.2018
 length: 1.5
 

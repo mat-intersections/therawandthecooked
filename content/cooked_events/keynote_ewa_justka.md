@@ -1,4 +1,5 @@
-title: Keynote Talk - Ewa Justka
+title: Ewa Justka
+type: keynote
 date: 17:00 29.9.2018
 length: 1
 
