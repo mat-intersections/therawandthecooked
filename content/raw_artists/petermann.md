@@ -1,4 +1,4 @@
-title: peterMann - Anna Xamó 
+title: peterMann - Anna Xambó
 image: images/petermann.jpg
 date: 1.1.2000
 link: http://annaxambo.me;fa-home;Home
