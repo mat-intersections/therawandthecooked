@@ -4,9 +4,26 @@
 
     {% for event in articles|selectattr('category', 'equalto', article.slug + '_events') %}
     <tr>
-        <td class="nowrap">{{ event|event_time }}</td>
-        <td class="nowrap">{{ event.title }}</td>
-        <td>{{ event.content|strip_paragraph }}</td>
+        <td class="nowrap">
+            {{ event|event_time }}
+        </td>
+        <td class="nowrap">
+            {% if event.type %}
+                <a href="#{{ event.slug }}">
+            {% endif %}
+
+            {% if event.type == 'keynote' %}
+                Keynote Talk -
+            {% elif event.type == 'workshop' %}
+                Workshop -
+            {% endif %}
+            {{ event.title }}
+
+            {% if event.type %}
+                </a>
+            {% endif %}
+        </td>
+        <td>{{ event.summary|strip_paragraph }}</td>
     </tr>
     {% endfor %}
 </table>

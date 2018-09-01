@@ -1,0 +1,16 @@
+<div class="row">
+    {% for item in items %}
+
+        <div id="{{ item.slug }}" class="col-{{ columns }} col-12-medium">
+            <div class="image fit">
+                <img src="{{ item.image }}" alt="{{ item.title }} image" />
+            </div>
+            <div class="content">
+                <h4>{{ item.title }}</h4>
+                {{ item.content }}
+            </div>
+            {% include 'includes/item_links.html' %}
+        </div>
+
+    {% endfor %}
+</div>

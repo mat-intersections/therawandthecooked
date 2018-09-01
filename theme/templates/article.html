@@ -17,8 +17,22 @@
                 <h3>Schedule</h3>
                 {% include 'includes/schedule.html' %}
 
+                <h3>Keynotes</h3>
+                {% set items = articles|selectattr('category', 'equalto', article.slug + '_events')
+                                       |selectattr('type', 'equalto', 'keynote') %}
+                {% set columns = 6 %}
+                {% include 'includes/items.html' %}
+
+                <h3>Workshops</h3>
+                {% set columns = 6 %}
+                {% set items = articles|selectattr('category', 'equalto', article.slug + '_events')
+                                       |selectattr('type', 'equalto', 'workshop') %}
+                {% include 'includes/items.html' %}
+
                 <h3>Artists</h3>
-                {% include 'includes/artists.html' %}
+                {% set columns = 4 %}
+                {% set items = articles|selectattr('category', 'equalto', article.slug + '_artists') %}
+                {% include 'includes/items.html' %}
 
             </div>
 
