@@ -45,4 +45,4 @@ JINJA_FILTERS = {
     'event_time': jinja_filters.event_time,
     'strip_paragraph': jinja_filters.strip_paragraph,
 }
-DESCRIPTION = 'The RAW and The COOKED is a two day ‘happening’ of new approaches to musical creation and creativity hosted by the Media & Arts Technology Centre for Doctoral Training at Queen Mary University of London.'
+DESCRIPTION = 'A two day ‘happening’ of new approaches to musical creation and creativity hosted by the Media & Arts Technology Centre for Doctoral Training at Queen Mary University of London.'
