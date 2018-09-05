@@ -17,7 +17,7 @@
                 <h3>Schedule</h3>
                 {% include 'includes/schedule.html' %}
 
-                <h3>Keynotes</h3>
+                <h3>Keynote Skeapers</h3>
                 {% set items = articles|selectattr('category', 'equalto', article.slug + '_events')
                                        |selectattr('type', 'equalto', 'keynote') %}
                 {% set columns = 6 %}
