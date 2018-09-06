@@ -1,4 +1,4 @@
-title: Alo Allik
+title: Alo
 image: images/alo.jpg
 date: 1.1.2000
 links: http://tehis.net;fa-home;Home
