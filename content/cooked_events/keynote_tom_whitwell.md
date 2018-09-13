@@ -3,7 +3,7 @@ type: keynote
 date: 16:00 29.9.2018
 length: 1
 image: images/tom_whitwell.jpg
-summary: DIY Modular guru Tom Whitwell from [Music Thing Modular](https://musicthing.co.uk/) discusses designing your fist modular unit.
+summary: How to design a module when you have never designed one before.
 
 DIY Modular guru Tom Whitwell from [Music Thing Modular](https://musicthing.co.uk/) discusses designing your fist modular unit.
 
