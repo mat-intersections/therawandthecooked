@@ -19,5 +19,6 @@ Joanne Armitage,
 Coral Manton,
 Emily Donovan,
 Hellocatfood,
-Sian Morell...
+Sian Morell,
+Eye measure...
 and more TBC.
